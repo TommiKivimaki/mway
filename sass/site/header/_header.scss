@@ -1,0 +1,86 @@
+/* Overall site header styles */
+
+.site-header {
+  position: relative;
+  padding: 1em;
+  font-family: $font__serif;
+  color: #fff;
+  background-color: $color__first-strong;
+
+  @media screen and (min-width: $query__small) {
+    padding: 1em 2em;
+  }
+}
+
+.site-branding {
+  display: flex;
+    flex: 1 0 auto; /* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
+  min-height: 65px;
+}
+
+.custom-logo-link {
+  margin-right: 1em;
+  img {
+    display: block;
+    height: 65px;
+    width: auto;
+  }
+}
+
+.site-branding-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65px;
+}
+
+.site-title {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2em;
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.site-description {
+  margin: 0;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+
+@media screen and (min-width: $query__medium) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-branding {
+    width: 50%;
+    flex: 1 0 auto; /* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
+  }
+
+  .site-navigation {
+    width: 50%;
+  }
+}
+
+.header-image {
+  max-height: 65vh;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100vw;
+  }
+}

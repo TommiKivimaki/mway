@@ -1,0 +1,121 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.entry-header {
+	$font-family: $font__sans;
+}
+
+.entry-title {
+	margin: .125em 0 .25em;
+	font-size: 2.5em;
+
+	@media screen and (min-width: $query__medium) {
+		font-size: 3em;
+	}
+
+	//Styling the titles visible in index page
+	a { 
+		text-decoration: none;
+		color: $color__interactive;
+
+		&:focus,
+		&:hover {
+			color: $color__interactive-strong;
+		}
+	}
+}
+
+.entry-meta {
+	font-size: 85%;
+}
+
+// stylize category links in a single post
+.cat-links {
+
+	a {
+		text-decoration: none;
+		// text-transform: uppercase;
+		color: $color__second-light;
+
+		&:focus,
+		&:hover {
+			background-color: $color__second-light;
+			color: white;
+		}
+	}
+}
+
+// stylize tags links in a single post
+.tags-links {
+
+	a {
+		text-decoration: none;
+		// text-transform: uppercase;
+		color: $color__second-light;
+
+		&:focus,
+		&:hover {
+			background-color: $color__second-light;
+			color: white;
+		}
+	}
+}
+
+// stylize author link in a single post
+.author {
+
+	a {
+		text-decoration: none;
+		color: $color__interactive;
+
+		&:focus,
+		&:hover {
+			background-color: $color__interactive;
+			color: white;
+		}
+	}
+}
+
+// stylize posted on link in a single post
+.posted-on {
+
+	a {
+		text-decoration: none;
+		color: $color__interactive;
+
+		&:focus,
+		&:hover {
+			background-color: $color__interactive;
+			color: white;
+		}
+	}
+}
+
+.byline {
+	&::after {
+		content: "|";
+		margin: 0 .5em;
+	}
+}
+
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
