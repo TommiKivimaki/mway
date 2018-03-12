@@ -25,7 +25,17 @@ blockquote {
 		font-size: 12em;
 		line-height: 100%;
 		color: white;
-	}
+  }
+  
+  a { 
+		text-decoration: none;
+		color: $color__interactive;
+
+		&:focus,
+		&:hover {
+			color: white;
+    }
+  }
 }
 
 address {

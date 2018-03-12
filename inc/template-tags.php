@@ -26,7 +26,7 @@ if ( ! function_exists( 'mway_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Published %s', 'post date', 'mway' ),
+			esc_html_x( 'on %s', 'post date', 'mway' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
@@ -42,7 +42,7 @@ if ( ! function_exists( 'mway_posted_by' ) ) :
 	function mway_posted_by() {
 		$byline = sprintf(
 			/* translators: %s: post author. */
-			esc_html_x( 'Written by %s ', 'post author', 'mway' ),
+			esc_html_x( '%s ', 'post author', 'mway' ),
 			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
@@ -123,7 +123,7 @@ function mway_the_category_list() {
 	$categories_list = get_the_category_list( esc_html__( ' ', 'mway' ) );
 	if ( $categories_list ) {
 		/* translators: 1: list of categories. */
-		printf( '<span class="cat-links">' . esc_html__( '%1$s', 'mway' ) . '</span>', $categories_list ); // WPCS: XSS OK.
+		printf( '<span class="cat-links">' . esc_html__( 'in %1$s', 'mway' ) . '</span>', $categories_list ); // WPCS: XSS OK.
 	}
 }
 

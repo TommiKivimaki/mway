@@ -62,8 +62,8 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
-
+  </div><!-- .entry-content -->
+    
 	<footer class="entry-footer">
 		<?php mway_entry_footer(); ?>
 	</footer><!-- .entry-footer -->

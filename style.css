@@ -348,6 +348,15 @@ blockquote:before {
 	color: white;
 }
 
+blockquote a {
+	text-decoration: none;
+	color: #612c6b;
+}
+
+blockquote a:focus, blockquote a:hover {
+	color: white;
+}
+
 address {
 	margin: 0 0 1.5em;
 }
@@ -923,6 +932,10 @@ a:hover, a:active {
 	margin: 0 0 1.5em;
 }
 
+.entry-header {
+	text-align: center;
+}
+
 .entry-title {
 	margin: .125em 0 .25em;
 	font-size: 2.5em;
@@ -949,46 +962,50 @@ a:hover, a:active {
 
 .cat-links a {
 	text-decoration: none;
-	color: #c46c98;
+	color: #aaaaaa;
 }
 
 .cat-links a:focus, .cat-links a:hover {
-	background-color: #c46c98;
-	color: white;
+	color: #666666;
 }
 
 .tags-links a {
 	text-decoration: none;
-	color: #c46c98;
+	color: #aaaaaa;
 }
 
 .tags-links a:focus, .tags-links a:hover {
-	background-color: #c46c98;
-	color: white;
+	color: #666666;
 }
 
 .author a {
 	text-decoration: none;
-	color: #612c6b;
+	color: #aaaaaa;
 }
 
 .author a:focus, .author a:hover {
-	background-color: #612c6b;
-	color: white;
+	color: #666666;
+}
+
+.posted-on {
+	color: #666666;
 }
 
 .posted-on a {
 	text-decoration: none;
-	color: #612c6b;
+	color: #aaaaaa;
 }
 
 .posted-on a:focus, .posted-on a:hover {
-	background-color: #612c6b;
-	color: white;
+	color: #666666;
+}
+
+.byline {
+	color: #666666;
 }
 
 .byline::after {
-	content: "|";
+	content: "-";
 	margin: 0 .5em;
 }
 
