@@ -1711,7 +1711,7 @@ object {
 	margin: 0 -1em;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 600px) {
 	.wp-caption.aligncenter,
 	.centered-image {
 		margin: 0 -2em;
