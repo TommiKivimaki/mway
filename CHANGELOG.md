@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Added
 - Added support for full bleed center-align images
 - Added styles for image caption text and links in captions
+- Added bare minimum styles gor image galleries
 
 ## [0.1.2] - 2018-03-09
 ### Added
