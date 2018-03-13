@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Token from Miia's Instagram account. 
 - Stylize images
 
+## [0.1.3] - 2018-03-13
+### Added
+- Added support for full bleed center-align images
+
 ## [0.1.2] - 2018-03-09
 ### Added
 - Work with me Art & Therapy page with content from Miia

@@ -192,7 +192,9 @@ function mway_scripts() {
 
 	wp_enqueue_style( 'mway-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'mway-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+  wp_enqueue_script( 'mway-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+  
+  wp_enqueue_script( 'mway-functions', get_template_directory_uri() . '/js/functions.js', array('jquery'), '20180313', true );
 
 	wp_enqueue_script( 'mway-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
