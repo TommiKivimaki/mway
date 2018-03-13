@@ -1,6 +1,9 @@
 .wp-caption {
 	margin-bottom: 1.5em;
-	max-width: 100%;
+  max-width: 100%;
+  font-family: $font__sans;
+  font-size: 90%;
+  color: $color__gray-std;
 
 	img[class*="wp-image-"] {
 		@include center-block;
@@ -8,6 +11,16 @@
 
 	.wp-caption-text {
 		margin: 0.8075em 0;
+  }
+  
+  a {
+		text-decoration: none;
+		color: $color__gray-light;
+
+		&:focus,
+		&:hover {
+			color: $color__gray-std;
+		}
 	}
 }
 

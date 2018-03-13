@@ -5,11 +5,11 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [Unreleased]
 - Color theme (Interaction color, primary+accent, secondary+accent or analogous)
 - Token from Miia's Instagram account. 
-- Stylize images
 
 ## [0.1.3] - 2018-03-13
 ### Added
 - Added support for full bleed center-align images
+- Added styles for image caption text and links in captions
 
 ## [0.1.2] - 2018-03-09
 ### Added

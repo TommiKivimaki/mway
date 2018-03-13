@@ -1636,6 +1636,9 @@ object {
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-size: 90%;
+	color: #666666;
 }
 
 .wp-caption img[class*="wp-image-"] {
@@ -1646,6 +1649,15 @@ object {
 
 .wp-caption .wp-caption-text {
 	margin: 0.8075em 0;
+}
+
+.wp-caption a {
+	text-decoration: none;
+	color: #aaaaaa;
+}
+
+.wp-caption a:focus, .wp-caption a:hover {
+	color: #666666;
 }
 
 .wp-caption-text {
