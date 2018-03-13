@@ -176,3 +176,19 @@ function mway_post_thumbnail() {
 	<?php endif; // End is_singular().
 }
 endif;
+
+/**
+ * 
+ * Post navigation links in single posts (previous / next post)
+ */
+
+ function mway_post_navigation() {
+   the_post_navigation( array(
+    'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'mway' ) . '</span> ' .
+    '<span class="screen-reader-text">' . __( 'Next post:', 'mway' ) . '</span> ' .
+    '<span class="post-title">%title</span>',
+  'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'mway' ) . '</span> ' .
+    '<span class="screen-reader-text">' . __( 'Previous post:', 'mway' ) . '</span> ' .
+    '<span class="post-title">%title</span>',
+   ));
+ }
