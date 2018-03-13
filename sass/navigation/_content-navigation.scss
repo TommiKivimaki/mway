@@ -12,7 +12,8 @@
 		width: 100%;
 		text-decoration: none;
 		padding: 1em;
-		border: 1px solid hsl(0, 0%, 80%);
+    // border: 1px solid hsl(0, 0%, 80%);
+    border: 1px solid $color__interactive;
 		color: black;
 		
 		&:hover,

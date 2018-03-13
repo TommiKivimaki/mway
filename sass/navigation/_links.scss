@@ -1,5 +1,6 @@
 a {
-	color: $color__link;
+  color: $color__interactive;
+  text-decoration: none;
 
 	&:visited {
 		color: $color__link-visited;
@@ -7,7 +8,7 @@ a {
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color__link-hover;
+		color: $color__interactive-strong;
 	}
 	&:focus {
 		outline: thin dotted;
