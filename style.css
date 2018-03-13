@@ -330,7 +330,7 @@ dfn, cite, em, i {
 blockquote {
 	position: relative;
 	margin: 0 0 1em;
-	background: #eba09d;
+	background: #612c6b;
 	padding: 1em 2em .5em 5em;
 	font-style: italic;
 	font-size: 110%;
@@ -837,7 +837,7 @@ a:hover, a:active {
 	padding: 1em;
 	font-family: "Spectral SC", "Times New Roman", Times, Cambria, Georgia, serif;
 	color: #fff;
-	background-color: #f79d81;
+	background-color: #280f36;
 }
 
 @media screen and (min-width: 600px) {
