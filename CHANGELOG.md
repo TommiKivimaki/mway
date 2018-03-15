@@ -11,6 +11,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Added support for full bleed center-align images
 - Added styles for image caption text and links in captions
 - Added bare minimum styles gor image galleries
+- Added Next and Previous texts and styles to Next post and Previous post navigation in single posts
+
+### Changed
+- Main color changed to purple and interactive color to orange. 
 
 ## [0.1.2] - 2018-03-09
 ### Added

@@ -237,3 +237,55 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+
+function myprefix_button_shortcode( $atts, $content = null ) {
+	
+	// Extract shortcode attributes
+	extract( shortcode_atts( array(
+		'url'    => '',
+		'title'  => '',
+		'target' => '',
+		'text'   => '',
+		'color'  => 'green',
+	), $atts ) );
+
+	// Use text value for items without content
+	$content = $text ? $text : $content;
+
+	// Return button with link
+	if ( $url ) {
+
+		$link_attr = array(
+			'href'   => esc_url( $url ),
+			'title'  => esc_attr( $title ),
+			'target' => ( 'blank' == $target ) ? '_blank' : '',
+			'class'  => 'myprefix-button color-' . esc_attr( $color ),
+		);
+
+		$link_attrs_str = '';
+
+		foreach ( $link_attr as $key => $val ) {
+
+			if ( $val ) {
+
+				$link_attrs_str .= ' ' . $key . '="' . $val . '"';
+
+			}
+
+		}
+
+
+		return '<div><div><a' . $link_attrs_str . '>' . do_shortcode( $content ) . '</a></div></div>';
+
+	}
+
+	// No link defined so return button as a span
+	else {
+
+		return '<div class="myprefix-button"><div>' . do_shortcode( $content ) . '</div></div>';
+
+	}
+
+}
+add_shortcode( 'button', 'myprefix_button_shortcode' );

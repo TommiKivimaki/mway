@@ -31,3 +31,33 @@ figure {
 }
 
 @import "tables";
+
+
+/* Main Button Style */
+.myprefix-button { 
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: $font__sans;
+  color: #1f628d;
+  background: #ffffff;
+  padding: .5em 1em .5em 1em;
+  margin-bottom: 1em;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  
+  display: inline-block;
+  // justify-content: center; 
+  margin: auto;
+  width: 50%;
+
+
+  
+  // cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+}

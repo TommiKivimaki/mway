@@ -498,6 +498,26 @@ td:last-child {
 	padding-right: 0;
 }
 
+/* Main Button Style */
+.myprefix-button {
+	border-radius: 4px;
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	color: #1f628d;
+	background: #ffffff;
+	padding: .5em 1em .5em 1em;
+	margin-bottom: 1em;
+	border: solid #1f628d 2px;
+	text-decoration: none;
+	display: inline-block;
+	margin: auto;
+	width: 50%;
+}
+
+.myprefix-button:hover, .myprefix-button:focus {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
