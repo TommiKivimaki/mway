@@ -239,7 +239,9 @@ if ( class_exists( 'WooCommerce' ) ) {
 }
 
 
-
+/**
+ * Creates a shortcode for buttons
+ */
 
 function mway_button( $atts, $content = null ) {
 	
@@ -252,6 +254,6 @@ function mway_button( $atts, $content = null ) {
   $url = esc_url( $attributes['url'] );
   $safe_label = esc_attr( $attributes['label'] );
 
-  return '<a href="' . $url . '"><div class="mway-button">' . $safe_label . '</div></a>';
+  return '<div class="mway-button-container"><a href="' . $url . '"><div class="mway-button">' . $safe_label . '</div></a></div>';
 }
 add_shortcode( 'button', 'mway_button' );

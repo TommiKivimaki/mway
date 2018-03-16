@@ -1,0 +1,29 @@
+//
+// Style the mway-button
+//
+
+.mway-button { 
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: $font__sans;
+  color: $color__second-std;
+  background: #ffffff;
+  border: solid $color__second-std 2px;
+  text-decoration: none;
+  
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  padding: .5em 1em .5em 1em;
+  width: 50%;
+  
+  &:hover,
+  &:focus {
+    background: $color__second-std;
+    color: white;
+    text-decoration: none;
+  }
+}

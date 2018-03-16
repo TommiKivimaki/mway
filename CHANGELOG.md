@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Color theme (Interaction color, primary+accent, secondary+accent or analogous)
 - Token from Miia's Instagram account. 
 
+## [0.1.4] - 2018-03-16
+### Added 
+- mway buttons
+
 ## [0.1.3] - 2018-03-13
 ### Added
 - Added support for full bleed center-align images
