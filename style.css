@@ -499,22 +499,25 @@ td:last-child {
 }
 
 /* Main Button Style */
-.myprefix-button {
+.mway-button {
 	border-radius: 4px;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-	color: #1f628d;
+	color: #612c6b;
 	background: #ffffff;
-	padding: .5em 1em .5em 1em;
-	margin-bottom: 1em;
-	border: solid #1f628d 2px;
+	border: solid #612c6b 2px;
 	text-decoration: none;
 	display: inline-block;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding: .5em 1em .5em 1em;
 	width: 50%;
 }
 
-.myprefix-button:hover, .myprefix-button:focus {
-	background: #3cb0fd;
+.mway-button:hover, .mway-button:focus {
+	background: #612c6b;
+	color: white;
 	text-decoration: none;
 }
 

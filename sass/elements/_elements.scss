@@ -34,30 +34,32 @@ figure {
 
 
 /* Main Button Style */
-.myprefix-button { 
+.mway-button { 
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
   font-family: $font__sans;
-  color: #1f628d;
+  color: $color__second-std;
   background: #ffffff;
-  padding: .5em 1em .5em 1em;
-  margin-bottom: 1em;
-  border: solid #1f628d 2px;
+  border: solid $color__second-std 2px;
   text-decoration: none;
   
   display: inline-block;
-  // justify-content: center; 
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  padding: .5em 1em .5em 1em;
   width: 50%;
-
-
+  
+  
   
   // cursor: pointer;
-
+  
   &:hover,
   &:focus {
-    background: #3cb0fd;
+    background: $color__second-std;
+    color: white;
     text-decoration: none;
   }
 }
