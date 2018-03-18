@@ -240,7 +240,7 @@ if ( class_exists( 'WooCommerce' ) ) {
 
 
 /**
- * Creates a shortcode for buttons
+ * Create a shortcode for mway-button
  */
 
 function mway_button( $atts, $content = null ) {
