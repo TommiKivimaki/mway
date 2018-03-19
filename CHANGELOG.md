@@ -6,7 +6,12 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Color theme (Interaction color, primary+accent, secondary+accent or analogous)
 - Token from Miia's Instagram account. 
 
-## [0.1.5] - 2018-03-19
+## [0.1.6] - 2018-03-19
+### Changed
+- blockquote top padding
+- all images
+
+## [0.1.5] - 2018-03-18
 ### Changed
 - Limited the maximum width of post and page content to $query__medium
 - Fixed the content in "Art & Therapy" and "About" pages. 

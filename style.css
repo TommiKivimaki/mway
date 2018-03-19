@@ -329,7 +329,7 @@ dfn, cite, em, i {
 
 blockquote {
 	position: relative;
-	margin: 0 0 1em;
+	margin: 1.5em 0 1.5em;
 	background: #612c6b;
 	padding: 1em 2em .5em 5em;
 	font-style: italic;
