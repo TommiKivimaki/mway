@@ -3,7 +3,7 @@
   max-width: 100%;
   font-family: $font__sans;
   font-size: 90%;
-  color: $color__gray-std;
+  color: $color__text-secondary;
 
 	img[class*="wp-image-"] {
 		@include center-block;
@@ -15,11 +15,11 @@
   
   a {
 		text-decoration: none;
-		color: $color__gray-light;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__gray-std;
+			color: $color__link-hover;
 		}
 	}
 }

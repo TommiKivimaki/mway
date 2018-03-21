@@ -35,8 +35,8 @@
 
 		&:hover,
 		&:focus {
-			color: $color__interactive;
-			border-bottom: 1px solid $color__interactive;
+			color: $color__main-std;
+			border-bottom: 1px solid $color__main-std;
 		}
 	}
 
@@ -209,7 +209,7 @@
 .footer-widgets {
 	margin: 2em 0 0;
 	padding: 1em 0;
-	background-color: $color__second-strong;
+	background-color: $color__main-strong;
 
 	@media screen and (min-width: $query__small) {
 		padding: 2em 1em;

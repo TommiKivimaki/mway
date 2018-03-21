@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ### Added
 - Styles for comments
 - Limited the max-width of the content area in layout/_global.scss
+- Developed color theming
 
 ### Changed 
 - post navigation color

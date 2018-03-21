@@ -14,6 +14,7 @@
 .entry-title {
 	margin: .125em 0 .25em;
   font-size: 2.5em;
+  color: $color__text-main;  
 
 	@media screen and (min-width: $query__medium) {
 		font-size: 3em;
@@ -22,11 +23,11 @@
 	//Styling the titles visible in index page
 	a { 
 		text-decoration: none;
-		color: $color__interactive;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__interactive-strong;
+			color: $color__link-hover;
 		}
 	}
 }
@@ -38,13 +39,15 @@
 // stylize category links in a single post
 .cat-links {
 
+  color: $color__text-main;  
+
 	a {
 		text-decoration: none;
-		color: $color__gray-light;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__gray-std;
+			color: $color__link-hover;
 		}
 	}
 }
@@ -54,11 +57,11 @@
 
 	a {
 		text-decoration: none;
-		color: $color__gray-light;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__gray-std;
+			color: $color__link-hover;
 		}
 	}
 }
@@ -68,11 +71,11 @@
 
 	a {
 		text-decoration: none;
-		color: $color__gray-light;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__gray-std;
+			color: $color__link-hover;
 		}
 	}
 }
@@ -80,25 +83,25 @@
 // stylize posted on link in a single post
 .posted-on {
 
-  color: $color__gray-std;  
+  color: $color__text-main; 
 
 	a {
 		text-decoration: none;
-		color: $color__gray-light;
+		color: $color__link;
 
 		&:focus,
 		&:hover {
-			color: $color__gray-std;
+			color: $color__link-hover;
 		}
 	}
 }
 
 .byline {
 
-  color: $color__gray-std;
+  color: $color__text-main;
 
 	&::after {
-		content: "-";
+		content: "|";
 		margin: 0 .5em;
 	}
 }

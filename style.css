@@ -350,7 +350,7 @@ blockquote:before {
 
 blockquote a {
 	text-decoration: none;
-	color: #ff9a7b;
+	color: #612c6b;
 }
 
 blockquote a:focus, blockquote a:hover {
@@ -616,16 +616,16 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #ff9a7b;
+	color: #c46c98;
 	text-decoration: none;
 }
 
 a:visited {
-	color: purple;
+	color: #c46c98;
 }
 
 a:hover, a:focus, a:active {
-	color: #e05d35;
+	color: #eba09d;
 }
 
 a:focus {
@@ -724,7 +724,7 @@ a:hover, a:active {
 
 .post-navigation .meta-nav {
 	display: block;
-	color: #666666;
+	color: #c46c98;
 	font-size: 90%;
 }
 
@@ -987,6 +987,7 @@ a:hover, a:active {
 .entry-title {
 	margin: .125em 0 .25em;
 	font-size: 2.5em;
+	color: #404040;
 }
 
 @media screen and (min-width: 950px) {
@@ -997,63 +998,67 @@ a:hover, a:active {
 
 .entry-title a {
 	text-decoration: none;
-	color: #ff9a7b;
+	color: #c46c98;
 }
 
 .entry-title a:focus, .entry-title a:hover {
-	color: #e05d35;
+	color: #eba09d;
 }
 
 .entry-meta {
 	font-size: 85%;
 }
 
+.cat-links {
+	color: #404040;
+}
+
 .cat-links a {
 	text-decoration: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .cat-links a:focus, .cat-links a:hover {
-	color: #666666;
+	color: #eba09d;
 }
 
 .tags-links a {
 	text-decoration: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .tags-links a:focus, .tags-links a:hover {
-	color: #666666;
+	color: #eba09d;
 }
 
 .author a {
 	text-decoration: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .author a:focus, .author a:hover {
-	color: #666666;
+	color: #eba09d;
 }
 
 .posted-on {
-	color: #666666;
+	color: #404040;
 }
 
 .posted-on a {
 	text-decoration: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .posted-on a:focus, .posted-on a:hover {
-	color: #666666;
+	color: #eba09d;
 }
 
 .byline {
-	color: #666666;
+	color: #404040;
 }
 
 .byline::after {
-	content: "-";
+	content: "|";
 	margin: 0 .5em;
 }
 
@@ -1112,13 +1117,13 @@ a:hover, a:active {
 .comment-form a {
 	text-decoration: none;
 	border: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .comment-meta a:hover, .comment-meta a:focus,
 .comment-form a:hover,
 .comment-form a:focus {
-	color: #666666;
+	color: #eba09d;
 }
 
 .comment .avatar {
@@ -1151,11 +1156,11 @@ a:hover, a:active {
 .comment-metadata a {
 	text-decoration: none;
 	border: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .comment-metadata a:hover, .comment-metadata a:focus {
-	color: #666666;
+	color: #eba09d;
 }
 
 .comment-author {
@@ -1170,11 +1175,11 @@ a:hover, a:active {
 .comment-content a {
 	word-wrap: break-word;
 	text-decoration: none;
-	color: #ff9a7b;
+	color: #c46c98;
 }
 
 .comment-content a:hover, .comment-content a:focus {
-	color: #404040;
+	color: #eba09d;
 }
 
 /*--------------------------------------------------------------
@@ -1226,8 +1231,8 @@ a:hover, a:active {
 }
 
 .widget a:hover, .widget a:focus {
-	color: #ff9a7b;
-	border-bottom: 1px solid #ff9a7b;
+	color: #612c6b;
+	border-bottom: 1px solid #612c6b;
 }
 
 .widget select {
@@ -1504,8 +1509,8 @@ a:hover, a:active {
 }
 
 .widget a:hover, .widget a:focus {
-	color: #ff9a7b;
-	border-bottom: 1px solid #ff9a7b;
+	color: #612c6b;
+	border-bottom: 1px solid #612c6b;
 }
 
 .widget select {
@@ -1795,11 +1800,11 @@ object {
 
 .wp-caption a {
 	text-decoration: none;
-	color: #aaaaaa;
+	color: #c46c98;
 }
 
 .wp-caption a:focus, .wp-caption a:hover {
-	color: #666666;
+	color: #eba09d;
 }
 
 .wp-caption-text {
@@ -1848,7 +1853,7 @@ object {
 }
 
 .gallery-item a:hover img, .gallery-item a:focus img {
-	border-color: #ff9a7b;
+	border-color: #612c6b;
 }
 
 .gallery-item a img {

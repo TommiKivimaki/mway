@@ -7,9 +7,9 @@
   -moz-border-radius: 4;
   border-radius: 4px;
   font-family: $font__sans;
-  color: $color__second-std;
+  color: $color__main-std;
   background: #ffffff;
-  border: solid $color__second-std 2px;
+  border: solid $color__main-std 2px;
   text-decoration: none;
   
   display: inline-block;
@@ -22,7 +22,7 @@
   
   &:hover,
   &:focus {
-    background: $color__second-std;
+    background: $color__main-std;
     color: white;
     text-decoration: none;
   }

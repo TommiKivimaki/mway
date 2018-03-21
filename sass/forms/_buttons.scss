@@ -4,20 +4,20 @@ input[type="reset"],
 input[type="submit"] {
 	border: 2px solid;
   // border-color: $color__border-button;
-  border-color: $color__second-std;
+  border-color: $color__main-std;
   border-radius: 4px;
   font-family: $font__sans;
   // background: $color__background-button;
   background: white;
   // color: rgba(0, 0, 0, .8);
-  color: $color__second-std;
+  color: $color__main-std;
 	@include font-size(0.8);
 	line-height: 1;
 	padding: .6em 1em .6em;
   
 	&:hover {
     // border-color: $color__border-button-hover;
-    background: $color__second-std;
+    background: $color__main-std;
     color: white;
     text-decoration: none;
 	}
@@ -25,7 +25,7 @@ input[type="submit"] {
 	&:active,
 	&:focus {
     // border-color: $color__border-button-focus;
-    background: $color__second-std;
+    background: $color__main-std;
     color: white;
     text-decoration: none;
 	}

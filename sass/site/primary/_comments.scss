@@ -36,11 +36,11 @@
   a {
     text-decoration: none;
     border: none;
-    color: $color__gray-light;
+    color: $color__link;
     
     &:hover,
     &:focus {
-      color: $color__gray-std;
+      color: $color__link-hover;
     }
   }
 }
@@ -77,11 +77,11 @@
   a {
     text-decoration: none;
     border: none;
-    color: $color__gray-light;
+    color: $color__link;
     
     &:hover,
     &:focus {
-      color: $color__gray-std;
+      color: $color__link-hover;
     }
   }
 }
@@ -100,11 +100,11 @@
   a {
     word-wrap: break-word;
     text-decoration: none;
-    color: $color__interactive;
+    color: $color__link;
     
     &:hover,
     &:focus {
-      color: $color__text-main;
+      color: $color__link-hover;
     }
   }
 }

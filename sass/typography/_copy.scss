@@ -10,7 +10,7 @@ dfn, cite, em, i {
 blockquote {
 	position: relative;
 	margin: 1.5em 0 1.5em;
-	background: $color__second-std;
+	background: $color__main-std;
 	padding: 1em 2em .5em 5em;
 	font-style: italic;
 	font-size: 110%;
@@ -29,7 +29,7 @@ blockquote {
   
   a { 
 		text-decoration: none;
-		color: $color__interactive;
+		color: $color__main-std;
 
 		&:focus,
 		&:hover {

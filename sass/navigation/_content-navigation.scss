@@ -13,15 +13,15 @@
 		text-decoration: none;
 		padding: 1em;
     // border: 1px solid hsl(0, 0%, 80%);
-    border: 2px solid $color__second-std;
+    border: 2px solid $color__main-std;
     border-radius: 4px;
 		color: black;
 		
 		&:hover,
 		&:focus {
 			color: white;
-			border-color: $color__second-std;
-			background: $color__second-std;
+			border-color: $color__main-std;
+			background: $color__main-std;
 		}
 	}
 	
@@ -75,7 +75,7 @@
 	
 	.meta-nav {
     display: block;
-    color: $color__gray-std;
+    color: $color__link;
     font-size: 90%;
 	}
 	
@@ -86,7 +86,7 @@
 	.post-title {
 		font-size: 1em;
     // font-weight: 700;
-		// border-bottom: 3px solid $color__interactive;
+		// border-bottom: 3px solid $color__main-std;
 	}
 	
 	// a:hover .post-title,
