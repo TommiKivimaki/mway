@@ -3,12 +3,12 @@
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
-- Color theme (Interaction color, primary+accent, secondary+accent or analogous)
 - Token from Miia's Instagram account. 
+- Styling the comment forms (Logged in and not logged in versions)
 
 ## [0.1.7] - 2018-03-21
 ### Added
-- Styles for comments
+- Styling for comments
 - Limited the max-width of the content area in layout/_global.scss
 - Developed color theming
 
