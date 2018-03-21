@@ -13,14 +13,14 @@
 		text-decoration: none;
 		padding: 1em;
     // border: 1px solid hsl(0, 0%, 80%);
-    border: 1px solid $color__interactive;
+    border: 1px solid $color__second-std;
 		color: black;
 		
 		&:hover,
 		&:focus {
 			color: white;
-			border-color: $color__interactive;
-			background: $color__interactive;
+			border-color: $color__second-std;
+			background: $color__second-std;
 		}
 	}
 	

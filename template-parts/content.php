@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying posts
+ * Template part for displaying single posts and index and archive pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *

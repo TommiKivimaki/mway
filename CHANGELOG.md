@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Color theme (Interaction color, primary+accent, secondary+accent or analogous)
 - Token from Miia's Instagram account. 
 
+## [0.1.7] - 2018-03-21
+### Changed 
+- post navigation color
+
 ## [0.1.6] - 2018-03-19
 ### Changed
 - blockquote top padding
