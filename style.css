@@ -1182,6 +1182,35 @@ a:hover, a:active {
 	color: #eba09d;
 }
 
+.reply {
+	margin-bottom: 1.5em;
+	text-align: right;
+}
+
+.reply a {
+	display: inline-block;
+	padding: .4em 1.5em;
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-size: 85%;
+	color: #c46c98;
+	line-height: 1.3em;
+	text-decoration: none;
+	border: 2px solid #612c6b;
+	border-radius: 4px;
+}
+
+.reply a:hover, .reply a:focus {
+	background: #612c6b;
+	color: white;
+}
+
+.bypostauthor .avatar {
+	box-sizing: content-box;
+	border: 3px solid #612c6b;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+
 /*--------------------------------------------------------------
 ## Widgets
 --------------------------------------------------------------*/
