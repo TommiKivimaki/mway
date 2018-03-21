@@ -5,3 +5,8 @@
     padding: 2em;
   }
 }
+
+.content-area {
+  max-width: $query__medium;
+  margin: 0 auto;
+}

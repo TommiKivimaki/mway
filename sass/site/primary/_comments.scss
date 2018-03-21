@@ -3,7 +3,6 @@
   margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  max-width: $query__medium;
   border-top: 1px solid hsl(0, 0%, 80%);
 }
 
@@ -15,7 +14,7 @@
   padding: 0;
   margin: 0;
   list-style-type: none;
-
+  
   ol {
     list-style-type: none;
   }
@@ -38,7 +37,7 @@
     text-decoration: none;
     border: none;
     color: $color__gray-light;
-
+    
     &:hover,
     &:focus {
       color: $color__gray-std;
@@ -47,7 +46,7 @@
 }
 
 .comment {
-
+  
   .avatar {
     position: absolute;
     top: 0px;
@@ -56,22 +55,60 @@
     height: 32px;
     border-radius: 32px;
   }
-
+  
   // Styles the threaded comment indent
   .children {
-
+    
     margin-left: 1em;
     padding-left: 0;
-
+    
     @media screen and (min-width: $query__medium) {
       margin-left: 2em;
     }
   }
 }
 
-.comment-content a {
-	word-wrap: break-word;
+.comment-metadata {
+  margin-top: .2em;
+  padding-bottom: .5em;
+  font-size: .9em;
+  line-height: 1em;
+  
+  a {
+    text-decoration: none;
+    border: none;
+    color: $color__gray-light;
+    
+    &:hover,
+    &:focus {
+      color: $color__gray-std;
+    }
+  }
 }
-.bypostauthor {
-	display: block;
+
+.comment-author {
+  font-size: 1.2em;
+  line-height: 1.1em;
 }
+
+.says {
+  font-size: 80%;
+}
+
+.comment-content {
+  
+  a {
+    word-wrap: break-word;
+    text-decoration: none;
+    color: $color__interactive;
+    
+    &:hover,
+    &:focus {
+      color: $color__text-main;
+    }
+  }
+}
+
+// .bypostauthor {
+// 	display: block;
+// }

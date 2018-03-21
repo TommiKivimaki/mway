@@ -7,6 +7,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Token from Miia's Instagram account. 
 
 ## [0.1.7] - 2018-03-21
+### Added
+- Styles for comments
+- Limited the max-width of the content area in layout/_global.scss
+
 ### Changed 
 - post navigation color
 
