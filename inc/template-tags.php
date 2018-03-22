@@ -158,7 +158,7 @@ function mway_post_thumbnail() {
 	?>
 
 	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
+		<?php the_post_thumbnail('mway-featured-image'); ?>
 	</div><!-- .post-thumbnail -->
 
 	<?php else : ?>

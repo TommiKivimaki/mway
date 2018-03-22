@@ -40,7 +40,12 @@ if ( ! function_exists( 'mway_setup' ) ) :
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
-		add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'post-thumbnails' );
+    
+    /*
+    * Crops image sizes to this size if they are larger. 
+    */
+    add_image_size( 'mway-featured-image', 2000, 400, true);
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(

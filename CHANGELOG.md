@@ -6,14 +6,14 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Token from Miia's Instagram account. 
 - Styling the comment forms (Logged in and not logged in versions)
 
-## [0.1.7] - 2018-03-21
+## [0.1.8] - 2018-03-22
 ### Added 
 - Comment navigation added below comments. 
 - Comment navigation styles
+- Featured image support for single posts. Max size 2000 x 400 px. 
 
 ### Changed
 - Default phrase above comments changed to "One comment" or "X comments"
-
 
 ## [0.1.7] - 2018-03-21
 ### Added
