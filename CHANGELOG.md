@@ -14,9 +14,11 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Blog index page styles.
 - Continue reading link to blog index page
 - the_excerpt() for blog index page and the_content() for single post (in content.php)
+- mway_excerpt_length() to control the length of an excerpt
 
 ### Changed
 - Default phrase above comments changed to "One comment" or "X comments"
+- Excerpt ellipses changed to ... (mway_excerpt_more())
 
 ## [0.1.7] - 2018-03-21
 ### Added

@@ -217,3 +217,21 @@ endif;
     '<span class="post-title">%title</span>',
    ));
  }
+
+ /**
+  *  Customize ellipsis at the end of excerpts.
+  */
+
+  function mway_excerpt_more( $more ) {
+    return "...";
+  }
+  add_filter( 'excerpt_more', 'mway_excerpt_more' );
+
+  /**
+   * Defines the excerpt length. Default value is 50 words.
+   * Note: Does not apply to custom excerpt written by an author. 
+   */
+  function mway_excerpt_length( $length ) {
+    return 50;
+  }
+  add_filter( 'excerpt_length', 'mway_excerpt_length' );
