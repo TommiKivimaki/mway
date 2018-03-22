@@ -639,7 +639,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Content navigation
 --------------------------------------------------------------*/
-.comment-navigation,
 .posts-navigation,
 .post-navigation,
 .paging-navigation {
@@ -649,7 +648,6 @@ a:hover, a:active {
 	overflow: hidden;
 }
 
-.comment-navigation a,
 .posts-navigation a,
 .post-navigation a,
 .paging-navigation a {
@@ -662,13 +660,34 @@ a:hover, a:active {
 	color: black;
 }
 
-.comment-navigation a:hover, .comment-navigation a:focus,
-.posts-navigation a:hover,
-.posts-navigation a:focus,
+.posts-navigation a:hover, .posts-navigation a:focus,
 .post-navigation a:hover,
 .post-navigation a:focus,
 .paging-navigation a:hover,
 .paging-navigation a:focus {
+	color: white;
+	border-color: #612c6b;
+	background: #612c6b;
+}
+
+.comment-navigation {
+	padding: 2em 0;
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: left;
+	overflow: hidden;
+}
+
+.comment-navigation a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	padding: .5em;
+	border: 2px solid #612c6b;
+	border-radius: 4px;
+	color: #c46c98;
+}
+
+.comment-navigation a:hover, .comment-navigation a:focus {
 	color: white;
 	border-color: #612c6b;
 	background: #612c6b;

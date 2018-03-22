@@ -7,6 +7,15 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Styling the comment forms (Logged in and not logged in versions)
 
 ## [0.1.7] - 2018-03-21
+### Added 
+- Comment navigation added below comments. 
+- Comment navigation styles
+
+### Changed
+- Default phrase above comments changed to "One comment" or "X comments"
+
+
+## [0.1.7] - 2018-03-21
 ### Added
 - Styling for comments
 - Limited the max-width of the content area in layout/_global.scss
