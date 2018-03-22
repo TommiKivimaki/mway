@@ -11,6 +11,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Comment navigation added below comments. 
 - Comment navigation styles
 - Featured image support for single posts. Max size 2000 x 400 px. 
+- Blog index page styles.
 
 ### Changed
 - Default phrase above comments changed to "One comment" or "X comments"

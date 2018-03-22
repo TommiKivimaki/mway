@@ -10,6 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="post-content">
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
@@ -66,5 +67,6 @@
     
 	<footer class="entry-footer">
 		<?php mway_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+  </footer><!-- .entry-footer -->
+      </div><!-- .post-content -->
 </article><!-- #post-<?php the_ID(); ?> -->

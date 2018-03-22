@@ -14,7 +14,8 @@
 function mway_body_classes( $classes ) {
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
-		$classes[] = 'hfeed';
+    $classes[] = 'hfeed';
+    $classes[] = 'archive-view';
 	}
 
 	return $classes;
