@@ -1097,6 +1097,23 @@ a:hover, a:active {
 	margin: 0 0 1.5em;
 }
 
+.post-thumbnail {
+	max-width: 100vw;
+	margin: 0 -1em;
+	padding-top: 1em;
+}
+
+@media screen and (min-width: 600px) {
+	.post-thumbnail {
+		margin: 0 -2em;
+	}
+}
+
+.post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
