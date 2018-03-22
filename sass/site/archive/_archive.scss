@@ -2,10 +2,20 @@
   background-color: $color__background-archive;
 
   .post {
+    position: relative;
     background-color: white;
   }
 
   .post-content {
     padding: 2em 2em 3em;
+  }
+
+  .continue-reading {
+    position: absolute;
+    right: 40px;
+  }
+
+  .comments-link {
+    padding-right: 1em;
   }
 }

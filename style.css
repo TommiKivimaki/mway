@@ -1255,11 +1255,21 @@ a:hover, a:active {
 }
 
 .archive-view .post {
+	position: relative;
 	background-color: white;
 }
 
 .archive-view .post-content {
 	padding: 2em 2em 3em;
+}
+
+.archive-view .continue-reading {
+	position: absolute;
+	right: 40px;
+}
+
+.archive-view .comments-link {
+	padding-right: 1em;
 }
 
 /*--------------------------------------------------------------
