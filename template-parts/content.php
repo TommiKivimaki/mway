@@ -10,6 +10,15 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<!-- If archive page -->
+<?php
+  if ( !is_singular() ) { ?>
+  <figure class="index-image">
+    <?php mway_post_thumbnail(); ?>
+  </figure>
+  <?php 
+  } ?>
+
 <div class="post-content">
 	<header class="entry-header">
 		<?php
@@ -20,7 +29,7 @@
 		endif;
 		?>
 
-		<?php
+	<?php
 		if ( 'post' === get_post_type() ) : ?> 
 		<div class="entry-meta">
 			<div class="entry-taxonomy">
@@ -41,7 +50,11 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php mway_post_thumbnail(); ?>
+  <?php
+		if ( is_singular() ) :
+			mway_post_thumbnail();
+		endif;
+		?>
 
 	<div class="entry-content">
     <?php

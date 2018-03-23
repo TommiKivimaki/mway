@@ -1260,7 +1260,7 @@ a:hover, a:active {
 }
 
 .archive-view .post-content {
-	padding: 2em 2em 3em;
+	padding: 1em 2em 3em;
 }
 
 .archive-view .continue-reading {
@@ -1270,6 +1270,16 @@ a:hover, a:active {
 
 .archive-view .comments-link {
 	padding-right: 1em;
+}
+
+.archive-view .index-image img {
+	display: block;
+	margin: 0 auto;
+}
+
+.archive-view .index-image a:focus > img,
+.archive-view .index-image a:hover > img {
+	opacity: .8;
 }
 
 /*--------------------------------------------------------------

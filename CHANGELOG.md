@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Token from Miia's Instagram account. 
 - Styling the comment forms (Logged in and not logged in versions)
 
+## [0.1.9] - 2018-03-23
+### Added 
+- Featured images to archive pages
+
 ## [0.1.8] - 2018-03-22
 ### Added 
 - Comment navigation added below comments. 

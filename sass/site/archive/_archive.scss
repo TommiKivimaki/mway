@@ -7,7 +7,7 @@
   }
 
   .post-content {
-    padding: 2em 2em 3em;
+    padding: 1em 2em 3em;
   }
 
   .continue-reading {
@@ -17,5 +17,19 @@
 
   .comments-link {
     padding-right: 1em;
+  } 
+
+  .index-image {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    a {
+      &:focus > img,
+      &:hover > img {
+        opacity: .8;
+      }
+    }
   }
 }
