@@ -167,7 +167,7 @@ add_action( 'after_setup_theme', 'mway_content_width', 0 );
  */
 function mway_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'mway' ),
+		'name'          => esc_html__( 'Front page widgets', 'mway' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'mway' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',

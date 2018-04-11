@@ -5,6 +5,19 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [Unreleased]
 - Token from Miia's Instagram account. 
 - Styling the comment forms (Logged in and not logged in versions)
+- Check the styling of menus
+- Eliminate ```$color__main-strong``` from the theme. It's the same as ```$color__main-std```
+
+## [0.2.0] - 2018-04-11
+### Added
+- Contact form 7 and NextGEN Gallery pluging
+- Frontpage widget area after the content implemented 
+
+### Changed
+- Color theme
+
+### Removed
+- Texts from footer
 
 ## [0.1.9] - 2018-03-23
 ### Added 

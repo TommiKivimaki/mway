@@ -1935,11 +1935,13 @@ object {
 	text-align: center;
 	vertical-align: top;
 	width: 100%;
-	padding: 1em;
+	padding: 0em;
 }
 
-.gallery-item img {
+.gallery-item .gallery-icon img {
 	display: block;
+	-o-object-fit: contain;
+	   object-fit: contain;
 }
 
 .gallery-item a {
@@ -1957,9 +1959,9 @@ object {
 }
 
 .gallery-item a img {
-	padding: .5em;
+	padding: 0em;
 	margin: 0 auto;
-	border: 1px solid #fff;
+	border: none;
 }
 
 .gallery-columns-2 .gallery-item {
@@ -1995,10 +1997,7 @@ object {
 }
 
 .gallery-caption {
-	display: block;
-	margin: 0;
-	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-	border: none;
+	display: none;
 }
 
 /*--------------------------------------------------------------
