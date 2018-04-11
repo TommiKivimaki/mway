@@ -49,7 +49,7 @@ if ( ! function_exists( 'mway_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'mway' ),
+			'header-menu' => esc_html__( 'Header', 'mway' ),
 		) );
 
 		/*
@@ -167,7 +167,7 @@ add_action( 'after_setup_theme', 'mway_content_width', 0 );
  */
 function mway_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Front page widgets', 'mway' ),
+		'name'          => esc_html__( 'Frontpage widgets', 'mway' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'mway' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -197,8 +197,13 @@ function mway_scripts() {
 
 	wp_enqueue_style( 'mway-style', get_stylesheet_uri() );
 
-  wp_enqueue_script( 'mway-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-  
+  wp_enqueue_script( 'mway-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
+  // Localize mway-navigation and pass the localized text to Javascript via mwaySreenReaderText variable
+  wp_localize_script('mway-navigation', 'mwayScreenReaderText', array(
+    'expand' => __( 'Expand child menu', 'mway'),
+    'collapse' => __( 'Collapse child menu', 'mway'),
+  ));
+
   wp_enqueue_script( 'mway-functions', get_template_directory_uri() . '/js/functions.js', array('jquery'), '20180313', true );
 
 	wp_enqueue_script( 'mway-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
