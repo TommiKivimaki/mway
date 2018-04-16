@@ -44,10 +44,6 @@
   flex-direction: column;
   justify-content: center;
   height: 65px;
-  
-  .site-description {
-    font-family: $font__sans;
-  }
 }
 
 .site-title {
@@ -70,8 +66,9 @@
 
 .site-description {
   margin: 0;
-  font-size: .9em;
-  font-weight: 700;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: $font__serif;
 }
 
 

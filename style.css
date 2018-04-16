@@ -501,7 +501,7 @@ td:last-child {
 .mway-button {
 	border-radius: 4px;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-	color: #D8BFFF;
+	color: #D8B776;
 	background: #ffffff;
 	border: solid #D8B776 2px;
 	text-decoration: none;
@@ -531,7 +531,7 @@ input[type="submit"] {
 	border-color: #D8B776;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	background: none;
-	color: white;
+	color: #D8B776;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1;
@@ -542,8 +542,8 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: white;
-	color: #D8B776;
+	color: white;
+	background: #D8B776;
 	text-decoration: none;
 }
 
@@ -554,8 +554,8 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-	background: white;
-	color: #D8B776;
+	color: white;
+	background: #D8B776;
 	text-decoration: none;
 }
 
@@ -625,12 +625,12 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #D8BFFF;
+	color: #D8B776;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 a:hover, a:focus, a:active {
@@ -693,7 +693,7 @@ a:hover, a:active {
 	padding: .5em;
 	border: 2px solid #D8B776;
 	border-radius: 4px;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .comment-navigation a:hover, .comment-navigation a:focus {
@@ -752,7 +752,7 @@ a:hover, a:active {
 
 .post-navigation .meta-nav {
 	display: block;
-	color: #D8BFFF;
+	color: #D8B776;
 	font-size: 90%;
 }
 
@@ -948,10 +948,6 @@ a:hover, a:active {
 	height: 65px;
 }
 
-.site-branding-text .site-description {
-	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-}
-
 .site-title {
 	margin: 0;
 	padding: 0;
@@ -971,8 +967,9 @@ a:hover, a:active {
 
 .site-description {
 	margin: 0;
-	font-size: .9em;
-	font-weight: 700;
+	font-size: 1.1em;
+	font-weight: 400;
+	font-family: "Spectral SC", "Times New Roman", Times, Cambria, Georgia, serif;
 }
 
 @media screen and (min-width: 950px) {
@@ -1013,14 +1010,15 @@ Import Header menu styles
 */
 .main-navigation {
 	display: block;
-	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-	font-weight: 400;
 	clear: left;
 }
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	margin: 0;
 	padding-top: 1em;
 	padding-left: 0;
@@ -1046,7 +1044,7 @@ Import Header menu styles
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	width: 170;
 }
 
 .main-navigation ul li:hover > ul,
@@ -1073,7 +1071,7 @@ Import Header menu styles
 
 .main-navigation .menu-item-has-children,
 .main-navigation .page_item_has_children {
-	min-width: 218px;
+	min-width: 170px;
 }
 
 .main-navigation .menu-item-has-children > a,
@@ -1089,7 +1087,7 @@ button.dropdown-toggle {
 	background: inherit;
 	color: white;
 	line-height: 1.5em;
-	padding: .4em .5em .4em .5em;
+	padding: .5em .5em .5em .5em;
 }
 
 button.dropdown-toggle .dropdown-symbol {
@@ -1146,7 +1144,7 @@ button.dropdown-toggle .dropdown-symbol {
 		padding-left: 0;
 	}
 	.main-navigation ul ul li a {
-		width: 218px;
+		width: 170px;
 		background: none;
 	}
 	.main-navigation ul li a {
@@ -1199,7 +1197,7 @@ button.dropdown-toggle .dropdown-symbol {
 
 .entry-title a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .entry-title a:focus, .entry-title a:hover {
@@ -1216,7 +1214,7 @@ button.dropdown-toggle .dropdown-symbol {
 
 .cat-links a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .cat-links a:focus, .cat-links a:hover {
@@ -1225,7 +1223,7 @@ button.dropdown-toggle .dropdown-symbol {
 
 .tags-links a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .tags-links a:focus, .tags-links a:hover {
@@ -1234,7 +1232,7 @@ button.dropdown-toggle .dropdown-symbol {
 
 .author a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .author a:focus, .author a:hover {
@@ -1247,7 +1245,7 @@ button.dropdown-toggle .dropdown-symbol {
 
 .posted-on a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .posted-on a:focus, .posted-on a:hover {
@@ -1335,7 +1333,7 @@ button.dropdown-toggle .dropdown-symbol {
 .comment-form a {
 	text-decoration: none;
 	border: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .comment-meta a:hover, .comment-meta a:focus,
@@ -1374,7 +1372,7 @@ button.dropdown-toggle .dropdown-symbol {
 .comment-metadata a {
 	text-decoration: none;
 	border: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .comment-metadata a:hover, .comment-metadata a:focus {
@@ -1393,7 +1391,7 @@ button.dropdown-toggle .dropdown-symbol {
 .comment-content a {
 	word-wrap: break-word;
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .comment-content a:hover, .comment-content a:focus {
@@ -1410,7 +1408,7 @@ button.dropdown-toggle .dropdown-symbol {
 	padding: .4em 1.5em;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-size: 85%;
-	color: #D8BFFF;
+	color: #D8B776;
 	line-height: 1.3em;
 	text-decoration: none;
 	border: 2px solid #D8B776;
@@ -2082,7 +2080,7 @@ object {
 
 .wp-caption a {
 	text-decoration: none;
-	color: #D8BFFF;
+	color: #D8B776;
 }
 
 .wp-caption a:focus, .wp-caption a:hover {

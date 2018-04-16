@@ -3,18 +3,16 @@
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
-- Button to "Older posts" on blog home page has black text. Change to gold!
-- Rename elements/_buttons.scss to _mway-buttons.scss
 - Token from Miia's Instagram account. 
-- Styling the comment forms (Logged in and not logged in versions)
-- Check the styling of menus
 - Eliminate ```$color__main-strong``` from the theme. It's the same as ```$color__main-std```
 
 ## [0.2.0] - 2018-04-11
 ### Added
 - Contact form 7 and NextGEN Gallery pluging
 - Frontpage widget area after the content implemented 
-- Header menu with some rudimentary Javascript to open mobile menu and sub menus
+- Header menu with full support for sub-menus implemented with JavaScript modified from 2017 theme
+- _mway-buttons.scss under sass/elements
+- Standard buttons in sass/forms/_buttons.scss styled the same way as sass/elements/_mway-buttons.scss
 
 ### Changed
 - Color theme

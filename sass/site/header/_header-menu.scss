@@ -1,12 +1,13 @@
 .main-navigation {
 	display: block;
-	font-family: $font__sans;
-	font-weight: 400;
   clear: left;
 
 	ul {
 		display: none;
     list-style: none;
+    font-family: $font__sans;
+    font-weight: 400;
+    font-style: normal;
 		margin: 0;
 		padding-top: 1em;
 		padding-left: 0;
@@ -30,7 +31,7 @@
 			}
 
 			a {
-				width: 200px;
+				width: 170;
 			}
 		}
 
@@ -65,7 +66,7 @@
 
 	.menu-item-has-children,
 	.page_item_has_children {
-    min-width: 218px;
+    min-width: 170px;
 	}
 	.menu-item-has-children > a,
 	.page_item_has_children > a {
@@ -81,7 +82,7 @@ button.dropdown-toggle {
 	background: inherit;
 	color: white;
 	line-height: 1.5em;
-  padding: .4em .5em .4em .5em;
+  padding: .5em .5em .5em .5em;
   
   .dropdown-symbol {
     font-weight: 400;
@@ -136,7 +137,7 @@ button.dropdown-toggle {
 					padding-left: 0;
 
 					a {
-						width: 218px;
+						width: 170px;
 						background: none;
 					}
 				}
