@@ -4,7 +4,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
 - Token from Miia's Instagram account. 
-- Eliminate ```$color__main-strong``` from the theme. It's the same as ```$color__main-std```
 
 ## [0.2.0] - 2018-04-11
 ### Added
@@ -13,6 +12,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 - Header menu with full support for sub-menus implemented with JavaScript modified from 2017 theme
 - _mway-buttons.scss under sass/elements
 - Standard buttons in sass/forms/_buttons.scss styled the same way as sass/elements/_mway-buttons.scss
+- Color definitions refactored
 
 ### Changed
 - Color theme
