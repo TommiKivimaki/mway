@@ -2,7 +2,7 @@
 
 .site-header {
   position: relative;
-  padding: 1em;
+  padding: 1em .5em;
   font-family: $font__serif;
   color: #fff;
   background-color: $color__main-strong;
@@ -30,7 +30,7 @@
 }
 
 .custom-logo-link {
-  margin-right: 1em;
+  margin-right: 0em;
   img {
     // display: block;
     display: none;

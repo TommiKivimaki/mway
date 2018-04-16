@@ -52,7 +52,7 @@
 	siteNavContain = masthead.find( '.main-navigation' );
 	siteNavigation = masthead.find( '.main-navigation > div > ul' );
   
-	// Enable menuToggle.
+	// Enable menuToggle, which is the button that toggles the menu on and off on a compact display
 	(function() {
     
 		// Return early if menuToggle is missing.
