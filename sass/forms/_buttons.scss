@@ -5,28 +5,35 @@ input[type="submit"] {
 	border: 2px solid;
   // border-color: $color__border-button;
   border-color: $color__main-std;
-  border-radius: 4px;
+  // border-radius: 4px;
   font-family: $font__sans;
-  // background: $color__background-button;
-  background: white;
+  background: none;
+  // background: rgba(255, 255, 255, 0.1);
   // color: rgba(0, 0, 0, .8);
-  color: $color__link;
+  // color: $color__link;
+  color: white;
 	@include font-size(0.8);
 	line-height: 1;
 	padding: .6em 1em .6em;
   
 	&:hover {
     // border-color: $color__border-button-hover;
-    background: $color__main-std;
-    color: white;
+    background: white;
+    color: $color__main-std;
     text-decoration: none;
 	}
   
 	&:active,
 	&:focus {
     // border-color: $color__border-button-focus;
-    background: $color__main-std;
-    color: white;
+    background: white;
+    color: $color__main-std;
     text-decoration: none;
 	}
+  
+  .dropdown-symbol {
+    @include font-size(1);
+    line-height: 1.5;
+    padding: .1em .11em .1em;
+  }
 }

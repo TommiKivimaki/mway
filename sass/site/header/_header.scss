@@ -6,22 +6,34 @@
   font-family: $font__serif;
   color: #fff;
   background-color: $color__main-strong;
-
+  
   @media screen and (min-width: $query__small) {
     padding: 1em 2em;
+    
+    .custom-logo-link {
+      margin-right: 1em;
+      
+      img {
+        display: block;
+        height: 65px;
+        width: auto;
+      }
+    }
   }
+  
 }
 
 .site-branding {
   display: flex;
-    flex: 1 0 auto; /* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
+  flex: 1 0 auto; /* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
   min-height: 65px;
 }
 
 .custom-logo-link {
   margin-right: 1em;
   img {
-    display: block;
+    // display: block;
+    display: none;
     height: 65px;
     width: auto;
   }
@@ -32,6 +44,10 @@
   flex-direction: column;
   justify-content: center;
   height: 65px;
+  
+  .site-description {
+    font-family: $font__sans;
+  }
 }
 
 .site-title {
@@ -40,11 +56,11 @@
   font-size: 2em;
   font-weight: 700;
   line-height: 1.2em;
-
+  
   a {
     color: white;
     text-decoration: none;
-
+    
     &:focus,
     &:hover {
       text-decoration: underline;
@@ -55,30 +71,31 @@
 .site-description {
   margin: 0;
   font-size: .9em;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 
 @media screen and (min-width: $query__medium) {
   .site-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
-
+  
   .site-branding {
-    width: 50%;
+    width: 40%;
     flex: 1 0 auto; /* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
   }
-
+  
   .site-navigation {
-    width: 50%;
+    width: 60%;
   }
 }
 
 .header-image {
   max-height: 65vh;
   overflow: hidden;
-
+  
   img {
     display: block;
     width: 100vw;

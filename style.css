@@ -529,10 +529,9 @@ input[type="reset"],
 input[type="submit"] {
 	border: 2px solid;
 	border-color: #D8B776;
-	border-radius: 4px;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-	background: white;
-	color: #D8BFFF;
+	background: none;
+	color: white;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1;
@@ -543,8 +542,8 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	background: #D8B776;
-	color: white;
+	background: white;
+	color: #D8B776;
 	text-decoration: none;
 }
 
@@ -555,9 +554,19 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-	background: #D8B776;
-	color: white;
+	background: white;
+	color: #D8B776;
 	text-decoration: none;
+}
+
+button .dropdown-symbol,
+input[type="button"] .dropdown-symbol,
+input[type="reset"] .dropdown-symbol,
+input[type="submit"] .dropdown-symbol {
+	font-size: 20px;
+	font-size: 1.25rem;
+	line-height: 1.5;
+	padding: .1em .11em .1em;
 }
 
 input[type="text"],
@@ -897,6 +906,14 @@ a:hover, a:active {
 	.site-header {
 		padding: 1em 2em;
 	}
+	.site-header .custom-logo-link {
+		margin-right: 1em;
+	}
+	.site-header .custom-logo-link img {
+		display: block;
+		height: 65px;
+		width: auto;
+	}
 }
 
 .site-branding {
@@ -915,7 +932,7 @@ a:hover, a:active {
 }
 
 .custom-logo-link img {
-	display: block;
+	display: none;
 	height: 65px;
 	width: auto;
 }
@@ -932,6 +949,10 @@ a:hover, a:active {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	height: 65px;
+}
+
+.site-branding-text .site-description {
+	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
 .site-title {
@@ -954,7 +975,7 @@ a:hover, a:active {
 .site-description {
 	margin: 0;
 	font-size: .9em;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 @media screen and (min-width: 950px) {
@@ -962,19 +983,21 @@ a:hover, a:active {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		-webkit-box-pack: justify;
 		    -ms-flex-pack: justify;
 		        justify-content: space-between;
 	}
 	.site-branding {
-		width: 50%;
+		width: 40%;
 		-webkit-box-flex: 1;
 		    -ms-flex: 1 0 auto;
 		        flex: 1 0 auto;
 		/* 1= can grow in size, 0=cannot shrink in size, auto=is always the size of the content*/
 	}
 	.site-navigation {
-		width: 50%;
+		width: 60%;
 	}
 }
 
@@ -991,13 +1014,11 @@ a:hover, a:active {
 /*
 Import Header menu styles
 */
-/* Mobile menu styling first */
 .main-navigation {
 	display: block;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	font-weight: 400;
 	clear: left;
-	/* Highlight the current page and menu item you are on by applying style to these classes */
 }
 
 .main-navigation ul {
@@ -1023,7 +1044,7 @@ Import Header menu styles
 }
 
 .main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li:focus > ul {
+.main-navigation ul ul li.focus > ul {
 	left: 100%;
 }
 
@@ -1032,7 +1053,7 @@ Import Header menu styles
 }
 
 .main-navigation ul li:hover > ul,
-.main-navigation ul li:focus > ul {
+.main-navigation ul li.focus > ul {
 	left: auto;
 }
 
@@ -1053,13 +1074,17 @@ Import Header menu styles
 	text-decoration: underline;
 }
 
-.main-navigation .menu-item-has-children > a,
-.main-navigation .page-item-has-children > a {
-	padding-right: 1em;
-	padding-left: 1em;
+.main-navigation .menu-item-has-children,
+.main-navigation .page_item_has_children {
+	min-width: 218px;
 }
 
-.button.dropdown-toggle {
+.main-navigation .menu-item-has-children > a,
+.main-navigation .page_item_has_children > a {
+	padding-right: 2em;
+}
+
+button.dropdown-toggle {
 	position: absolute;
 	right: 0;
 	border: none;
@@ -1082,7 +1107,7 @@ Import Header menu styles
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* Toggle small menu and sub menus on */
+/* Toggle small menu and children on */
 .toggled-on ul,
 .sub-menu.toggled-on {
 	display: block;
@@ -1121,7 +1146,7 @@ Import Header menu styles
 		background: none;
 	}
 	.main-navigation ul li a {
-		padding: .4 1em;
+		padding: .4em 1em;
 	}
 }
 
@@ -1131,6 +1156,13 @@ Import Header menu styles
 		    -ms-flex-pack: end;
 		        justify-content: flex-end;
 		padding-top: 0;
+		/* If you want dropdowns to open on hover, uncomment this: */
+		/*
+			li:hover > ul,
+				li:focus > ul {
+				display: block;
+			}
+			*/
 	}
 }
 

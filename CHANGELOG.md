@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
 - Button to "Older posts" on blog home page has black text. Change to gold!
+- Rename elements/_buttons.scss to _mway-buttons.scss
 - Token from Miia's Instagram account. 
 - Styling the comment forms (Logged in and not logged in versions)
 - Check the styling of menus
