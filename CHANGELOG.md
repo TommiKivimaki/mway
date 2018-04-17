@@ -5,6 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [Unreleased]
 - Token from Miia's Instagram account. 
 
+## [1.0.0] - 2018-04-17
+
+## Changed
+- screenshot.png
+- Theme description in styles.css
+
 ## [0.2.0] - 2018-04-11
 ### Added
 - Contact form 7 and NextGEN Gallery pluging
