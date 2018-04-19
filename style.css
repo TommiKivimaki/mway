@@ -1673,13 +1673,13 @@ button.dropdown-toggle .dropdown-symbol {
 /* Footer widget styles */
 .footer-widgets {
 	margin: 2em 0 0;
-	padding: 1em 0;
+	padding: .5em 0;
 	background-color: #D8B776;
 }
 
 @media screen and (min-width: 600px) {
 	.footer-widgets {
-		padding: 2em 1em;
+		padding: .5em 1em;
 	}
 }
 
@@ -1687,7 +1687,7 @@ button.dropdown-toggle .dropdown-symbol {
 	-webkit-box-flex: 1;
 	    -ms-flex: 1;
 	        flex: 1;
-	margin: 0 1em 2em;
+	margin: 0 1em 1em;
 	padding-top: 1em;
 }
 
@@ -1951,13 +1951,13 @@ button.dropdown-toggle .dropdown-symbol {
 /* Footer widget styles */
 .footer-widgets {
 	margin: 2em 0 0;
-	padding: 1em 0;
+	padding: .5em 0;
 	background-color: #D8B776;
 }
 
 @media screen and (min-width: 600px) {
 	.footer-widgets {
-		padding: 2em 1em;
+		padding: .5em 1em;
 	}
 }
 
@@ -1965,7 +1965,7 @@ button.dropdown-toggle .dropdown-symbol {
 	-webkit-box-flex: 1;
 	    -ms-flex: 1;
 	        flex: 1;
-	margin: 0 1em 2em;
+	margin: 0 1em 1em;
 	padding-top: 1em;
 }
 

@@ -208,16 +208,16 @@
 
 .footer-widgets {
 	margin: 2em 0 0;
-	padding: 1em 0;
+	padding: .5em 0;
 	background-color: $color__main-std;
 
 	@media screen and (min-width: $query__small) {
-		padding: 2em 1em;
+		padding: .5em 1em;
 	}
 
 	.widget {
 		flex: 1;
-		margin: 0 1em 2em;
+		margin: 0 1em 1em;
 		padding-top: 1em;
 
 		.original-title {
