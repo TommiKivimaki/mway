@@ -45,7 +45,7 @@ if ( ! function_exists( 'mway_setup' ) ) :
     /*
     * Crops image sizes to this size if they are larger. 
     */
-    add_image_size( 'mway-featured-image', 2000, 400, true);
+    add_image_size( 'mway-featured-image', 1200, 400, array(center, center));
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
