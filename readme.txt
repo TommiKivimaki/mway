@@ -1,7 +1,7 @@
 === Mway ===
 
 Contributors: Tommi Kivimäki
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Tags: custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 Requires at least: 4.0
 Tested up to: 4.8
@@ -13,7 +13,7 @@ A WordPress theme called Mway.
 
 == Description ==
 
-Scandinavian elegance
+Minimal Scandinavian elegance.
 
 == Installation ==
 
@@ -21,13 +21,12 @@ Scandinavian elegance
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
-== Frequently Asked Questions ==
-
-= Does this theme support any plugins? =
-
 == Changelog ==
 
-= 1.0 - May 17 2018 =
+= 1.0.2 - May 5 2018
+* Updated some descriptions like this file and README.md
+
+= 1.0 - Apr 17 2018 =
 * Initial release
 
 == Credits ==
