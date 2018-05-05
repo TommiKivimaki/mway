@@ -3,11 +3,15 @@
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
 ## [Unreleased]
-- Token from Miia's Instagram account. 
+
+## [1.0.2] - 2018-05-05
+
+### Changed
+- Minor edits to descriptions
 
 ## [1.0.0] - 2018-04-17
 
-## Changed
+### Changed
 - screenshot.png
 - Theme description in styles.css
 
@@ -61,7 +65,6 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 ## [0.1.5] - 2018-03-18
 ### Changed
 - Limited the maximum width of post and page content to $query__medium
-- Fixed the content in "Art & Therapy" and "About" pages. 
 
 ## [0.1.4] - 2018-03-16
 ### Added 
@@ -79,16 +82,11 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [0.1.2] - 2018-03-09
 ### Added
-- Work with me Art & Therapy page with content from Miia
 - Post and page content stylize for text, lists, table, blockquotes, pre and code. 
-
-### Changed
-- Front page content
 
 ## [0.1.1] - 2018-03-08
 ### Added
 - Category list, tags, written by and posted-on entry-meta styles for posts and pages. 
-- About page created with the content from Miia. 
 
 ## [0.1.0] - 2018-02-13
 ### Added
