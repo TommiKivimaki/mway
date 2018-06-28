@@ -882,8 +882,8 @@ a:hover, a:active {
 	}
 }
 
-.content-area {
-	max-width: 950px;
+.site-content {
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
@@ -1277,21 +1277,30 @@ button.dropdown-toggle .dropdown-symbol {
 	margin: 0 0 1.5em;
 }
 
-.post-thumbnail {
+.full-bleed {
 	max-width: 100vw;
-	margin: 0 -1em;
-	padding-top: 1em;
+	max-height: 65vh;
+	margin-top: 1em;
+	margin-left: -1em;
+	overflow: hidden;
 }
 
 @media screen and (min-width: 600px) {
-	.post-thumbnail {
+	.full-bleed {
 		margin: 0 -2em;
 	}
 }
 
-.post-thumbnail img {
+@media screen and (min-width: 1080px) {
+	.full-bleed {
+		margin-right: calc( ((-100vw + 1080px) / 2) - 2em);
+		margin-left: calc( ((-100vw + 1080px) / 2) - 2em);
+	}
+}
+
+.full-bleed img {
 	display: block;
-	margin: 0 auto;
+	width: 100vw;
 }
 
 /*--------------------------------------------------------------

@@ -23,6 +23,9 @@ Minimal Scandinavian elegance.
 
 == Changelog ==
 
+= 1.1.0 - June 28 2018
+* Featured images in pages and posts are full bleed and the same size as the header image in front page.
+
 = 1.0.2 - May 5 2018
 * Updated some descriptions like this file and README.md
 

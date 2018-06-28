@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-06-28
+
+### Changed
+- Featured images in pages and posts are full bleed and the same size as the header image in front page.
+
 ## [1.0.2] - 2018-05-05
 
 ### Changed
