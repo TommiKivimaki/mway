@@ -4,6 +4,11 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
 
+## [1.1.1] - 2018-06-29
+
+### Changed 
+- Lighter gold color
+
 ## [1.1.0] - 2018-06-28
 
 ### Changed

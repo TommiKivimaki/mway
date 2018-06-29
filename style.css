@@ -330,7 +330,7 @@ dfn, cite, em, i {
 blockquote {
 	position: relative;
 	margin: 1.5em 0 1.5em;
-	background: #D8B776;
+	background: #D0B888;
 	padding: 1em 2em .5em 5em;
 	font-style: italic;
 	font-size: 110%;
@@ -350,7 +350,7 @@ blockquote:before {
 
 blockquote a {
 	text-decoration: none;
-	color: #D8B776;
+	color: #D0B888;
 }
 
 blockquote a:focus, blockquote a:hover {
@@ -503,7 +503,7 @@ td:last-child {
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	color: #D8B776;
 	background: #ffffff;
-	border: solid #D8B776 2px;
+	border: solid #D0B888 2px;
 	text-decoration: none;
 	display: inline-block;
 	margin-left: auto;
@@ -515,7 +515,7 @@ td:last-child {
 }
 
 .mway-button:hover, .mway-button:focus {
-	background: #D8B776;
+	background: #D0B888;
 	color: white;
 	text-decoration: none;
 }
@@ -528,10 +528,10 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	border: 2px solid;
-	border-color: #D8B776;
+	border-color: #D0B888;
 	font-family: "Source Sans Pro", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 	background: none;
-	color: #D8B776;
+	color: #D0B888;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1;
@@ -543,7 +543,7 @@ input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	color: white;
-	background: #D8B776;
+	background: #D0B888;
 	text-decoration: none;
 }
 
@@ -555,7 +555,7 @@ input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
 	color: white;
-	background: #D8B776;
+	background: #D0B888;
 	text-decoration: none;
 }
 
@@ -664,7 +664,7 @@ a:hover, a:active {
 	width: 100%;
 	text-decoration: none;
 	padding: 1em;
-	border: 2px solid #D8B776;
+	border: 2px solid #D0B888;
 	border-radius: 4px;
 	color: black;
 }
@@ -675,8 +675,8 @@ a:hover, a:active {
 .paging-navigation a:hover,
 .paging-navigation a:focus {
 	color: white;
-	border-color: #D8B776;
-	background: #D8B776;
+	border-color: #D0B888;
+	background: #D0B888;
 }
 
 .comment-navigation {
@@ -691,15 +691,15 @@ a:hover, a:active {
 	width: 100%;
 	text-decoration: none;
 	padding: .5em;
-	border: 2px solid #D8B776;
+	border: 2px solid #D0B888;
 	border-radius: 4px;
 	color: #D8B776;
 }
 
 .comment-navigation a:hover, .comment-navigation a:focus {
 	color: white;
-	border-color: #D8B776;
-	background: #D8B776;
+	border-color: #D0B888;
+	background: #D0B888;
 }
 
 .nav-links {
@@ -896,7 +896,7 @@ a:hover, a:active {
 	padding: 1em .5em;
 	font-family: "Spectral SC", "Times New Roman", Times, Cambria, Georgia, serif;
 	color: #fff;
-	background-color: #D8B776;
+	background-color: #D0B888;
 }
 
 @media screen and (min-width: 600px) {
@@ -1420,18 +1420,18 @@ button.dropdown-toggle .dropdown-symbol {
 	color: #D8B776;
 	line-height: 1.3em;
 	text-decoration: none;
-	border: 2px solid #D8B776;
+	border: 2px solid #D0B888;
 	border-radius: 4px;
 }
 
 .reply a:hover, .reply a:focus {
-	background: #D8B776;
+	background: #D0B888;
 	color: white;
 }
 
 .bypostauthor .avatar {
 	box-sizing: content-box;
-	border: 3px solid #D8B776;
+	border: 3px solid #D0B888;
 	margin-top: -5px;
 	margin-left: -5px;
 }
@@ -1520,8 +1520,8 @@ button.dropdown-toggle .dropdown-symbol {
 }
 
 .widget a:hover, .widget a:focus {
-	color: #D8B776;
-	border-bottom: 1px solid #D8B776;
+	color: #D0B888;
+	border-bottom: 1px solid #D0B888;
 }
 
 .widget select {
@@ -1683,7 +1683,7 @@ button.dropdown-toggle .dropdown-symbol {
 .footer-widgets {
 	margin: 2em 0 0;
 	padding: .5em 0;
-	background-color: #D8B776;
+	background-color: #D0B888;
 }
 
 @media screen and (min-width: 600px) {
@@ -1798,8 +1798,8 @@ button.dropdown-toggle .dropdown-symbol {
 }
 
 .widget a:hover, .widget a:focus {
-	color: #D8B776;
-	border-bottom: 1px solid #D8B776;
+	color: #D0B888;
+	border-bottom: 1px solid #D0B888;
 }
 
 .widget select {
@@ -1961,7 +1961,7 @@ button.dropdown-toggle .dropdown-symbol {
 .footer-widgets {
 	margin: 2em 0 0;
 	padding: .5em 0;
-	background-color: #D8B776;
+	background-color: #D0B888;
 }
 
 @media screen and (min-width: 600px) {
@@ -2144,7 +2144,7 @@ object {
 }
 
 .gallery-item a:hover img, .gallery-item a:focus img {
-	border-color: #D8B776;
+	border-color: #D0B888;
 }
 
 .gallery-item a img {
